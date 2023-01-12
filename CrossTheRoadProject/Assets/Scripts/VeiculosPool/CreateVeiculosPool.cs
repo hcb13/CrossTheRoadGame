@@ -20,7 +20,7 @@ public class CreateVeiculosPool : MonoBehaviour
     private void Start()
     {
         InitializePool();
-        InvokeRepeating("GetVeiculoFromPool", 1f, gapInstantiate);
+        InvokeRepeating("GetVeiculoFromPool", 0.2f, gapInstantiate);
     }
 
     private void InitializePool()
